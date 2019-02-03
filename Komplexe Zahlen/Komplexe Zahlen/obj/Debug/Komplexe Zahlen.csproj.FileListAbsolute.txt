@@ -1,0 +1,11 @@
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\bin\Debug\Komplexe Zahlen.exe.config
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\bin\Debug\Komplexe Zahlen.exe
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\bin\Debug\Komplexe Zahlen.pdb
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe Zahlen.csprojAssemblyReference.cache
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe_Zahlen.Main.resources
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe_Zahlen.Properties.Resources.resources
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe_Zahlen.UCs.uc_ManualInput.resources
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe Zahlen.csproj.GenerateResource.cache
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe Zahlen.csproj.CoreCompileInputs.cache
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe Zahlen.exe
+C:\Users\Fabian\source\repos\Komplexe Zahlen\Komplexe Zahlen\obj\Debug\Komplexe Zahlen.pdb
