@@ -8,3 +8,13 @@ C:\Users\Fabian\source\repos\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZah
 C:\Users\Fabian\source\repos\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.csproj.CoreCompileInputs.cache
 C:\Users\Fabian\source\repos\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.exe
 C:\Users\Fabian\source\repos\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.pdb
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\bin\Debug\komplexeZahlen.exe.config
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\bin\Debug\komplexeZahlen.exe
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\bin\Debug\komplexeZahlen.pdb
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.Form1.resources
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.Properties.Resources.resources
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.csproj.GenerateResource.cache
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.csproj.CoreCompileInputs.cache
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.exe
+C:\Users\Fabian\Desktop\complex-Numbers-master\komplexeZahlen\komplexeZahlen\obj\Debug\komplexeZahlen.pdb
