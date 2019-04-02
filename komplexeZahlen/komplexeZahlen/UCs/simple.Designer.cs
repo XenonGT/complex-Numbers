@@ -89,6 +89,7 @@
             this.rb_polarZ1.TabIndex = 1;
             this.rb_polarZ1.Text = "Polarform";
             this.rb_polarZ1.UseVisualStyleBackColor = true;
+            this.rb_polarZ1.CheckedChanged += new System.EventHandler(this.rb_polarZ1_CheckedChanged);
             // 
             // rb_kartZ1
             // 
@@ -179,6 +180,7 @@
             this.rb_polarZ2.TabIndex = 1;
             this.rb_polarZ2.Text = "Polarform";
             this.rb_polarZ2.UseVisualStyleBackColor = true;
+            this.rb_polarZ2.CheckedChanged += new System.EventHandler(this.rb_polarZ2_CheckedChanged);
             // 
             // rb_kartZ2
             // 
@@ -257,6 +259,7 @@
             this.cb_operator.Name = "cb_operator";
             this.cb_operator.Size = new System.Drawing.Size(168, 39);
             this.cb_operator.TabIndex = 68;
+            this.cb_operator.SelectedIndexChanged += new System.EventHandler(this.cb_operator_SelectedIndexChanged);
             // 
             // btn_exec
             // 
@@ -274,6 +277,7 @@
             this.btn_exec.TabIndex = 67;
             this.btn_exec.Text = "Ausführen";
             this.btn_exec.UseVisualStyleBackColor = false;
+            this.btn_exec.Click += new System.EventHandler(this.btn_exec_Click);
             // 
             // panel2
             // 
@@ -332,9 +336,10 @@
             this.lv_calc.Name = "lv_calc";
             this.lv_calc.Size = new System.Drawing.Size(441, 304);
             this.lv_calc.TabIndex = 74;
-            this.lv_calc.TileSize = new System.Drawing.Size(425, 20);
+            this.lv_calc.TileSize = new System.Drawing.Size(420, 20);
             this.lv_calc.UseCompatibleStateImageBehavior = false;
             this.lv_calc.View = System.Windows.Forms.View.Tile;
+            this.lv_calc.ItemActivate += new System.EventHandler(this.lv_calc_ItemActivate);
             // 
             // panel1
             // 

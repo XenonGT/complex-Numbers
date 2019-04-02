@@ -42,6 +42,7 @@
             this.slidebar = new System.Windows.Forms.Panel();
             this.btn_complex = new System.Windows.Forms.Button();
             this.btn_simple = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnl_slide.SuspendLayout();
@@ -59,6 +60,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lbl_exit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -189,6 +191,17 @@
             this.btn_simple.UseVisualStyleBackColor = false;
             this.btn_simple.Click += new System.EventHandler(this.btn_simple_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Turquoise;
+            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(276, 25);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Komplexer Taschenrechner";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,5 +240,6 @@
         private System.Windows.Forms.Panel slidebar;
         private System.Windows.Forms.Button btn_complex;
         private System.Windows.Forms.Button btn_simple;
+        private System.Windows.Forms.Label label1;
     }
 }

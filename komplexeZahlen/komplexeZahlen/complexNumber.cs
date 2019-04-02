@@ -18,11 +18,11 @@ namespace komplexeZahlen
         {
             if (Real.HasValue && Imag.HasValue)
             {
-                // Assign real + imag to parameters
+                // Assign real + imaginary to parameters
                 this.real = Real.Value;
                 this.imaginary = Imag.Value;
 
-                // Calculate ammount + phi
+                // Calculate amount + phi
                 this.amount = returnAmount();
                 this.angle = returnPhi();
             }
@@ -32,7 +32,7 @@ namespace komplexeZahlen
                 this.amount = Amount.Value;
                 this.angle = Angle.Value;
 
-                // Calculate real + imag
+                // Calculate real + imaginary
                 this.real = returnReal();
                 this.imaginary = returnImaginary();
             }
@@ -40,6 +40,7 @@ namespace komplexeZahlen
                 throw new ArgumentNullException();
         }
 
+        //Calculate phi
         public double returnPhi()
         {
             if(this.real > 0)
@@ -62,24 +63,29 @@ namespace komplexeZahlen
             {
                 return Math.Round((-1 * (Math.PI / 2)) / (Math.PI / 180), 3);
             }
-            return 0;
+            else
+                throw new ArgumentNullException();
         }
 
+        //Calculate the Amount
         public double returnAmount()
         {
             return Math.Round(Math.Sqrt(this.real * this.real + this.imaginary * this.imaginary), 3);
         }
 
+        //Calculate the real-part
         public double returnReal()
         {
             return Math.Round(this.amount * Math.Cos(this.angle * (Math.PI / 180)), 3);
         }
 
+        //Calculate the imaginary-part
         public double returnImaginary()
         {
             return Math.Round(this.amount * Math.Sin(this.angle * (Math.PI / 180)), 3);
         }
 
+       //Addition function
         public complexNumber addition(complexNumber Z2)
         {
             double Real = this.real + Z2.real;
@@ -88,6 +94,7 @@ namespace komplexeZahlen
             return solution;
         }
 
+        //Subtraction function
         public complexNumber subtraction(complexNumber Z2)
         {
             double Real = this.real - Z2.real;
@@ -96,6 +103,7 @@ namespace komplexeZahlen
             return solution;
         }
 
+        //Multiplication function
         public complexNumber multiplication(complexNumber Z2)
         {
             
@@ -105,6 +113,7 @@ namespace komplexeZahlen
             return solution;
         }
 
+        //Division function
         public complexNumber division(complexNumber Z2)
         {
             double a, b, c;
